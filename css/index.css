@@ -12,16 +12,17 @@ body {
 }
 
 img {
-    height: 250px;
+    width: 300px;
     border-radius: 5px;
     box-shadow: 0 0 20px 15px #ff9fb8;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bolder;
     margin: 4%;
     line-height: 1.2;
+    text-align: center;
 }
 
 .h1-div {
@@ -29,7 +30,6 @@ h1 {
     text-align: center;
     flex-direction: column;
     padding: 0;
-    white-space: nowrap;
 }
 
 .btn-div {
@@ -38,13 +38,14 @@ h1 {
 }
 
 button {
-    font-size: 30px;
-    width: 200px;
+    font-size: 25px;
+    width: 175px;
     text-align: center;
     height: 50px;
     white-space: nowrap;
     background-color: #ff9696;
     cursor: pointer;
+    border: solid black 2px;
 }
 
 .yes-button {
