@@ -1,0 +1,56 @@
+* {
+    font-family: 'Sour Gummy', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 7%;
+    background-color: #ffe9ef;
+}
+
+img {
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 15px #ff9fb8;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 4%;
+    line-height: 1.2;
+}
+
+.h1-div {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.btn-div {
+    display: flex;
+    gap: 15px;
+}
+
+button {
+    font-size: 30px;
+    width: 200px;
+    text-align: center;
+    height: 50px;
+    white-space: nowrap;
+    background-color: #ff9696;
+    cursor: pointer;
+}
+
+.yes-button {
+    background-color: #bbffbb;
+}
+
+.no-button {
+    background-color: #ff8383;
+}
