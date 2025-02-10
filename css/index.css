@@ -46,6 +46,7 @@ button {
     background-color: #ff9696;
     cursor: pointer;
     border: solid black 2px;
+    color: black;
 }
 
 .yes-button {
