@@ -7,8 +7,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 7.5%;
+    margin-top: 9%;
     background-color: #ffe9ef;
+}
+
+.start-bod {
+    margin-top: 7%;
 }
 
 img {
@@ -17,12 +21,16 @@ img {
     box-shadow: 0 0 20px 15px #ff9fb8;
 }
 
-h1 {
+h1, h2 {
     font-size: 40px;
     font-weight: bolder;
     margin: 4%;
     line-height: 1.2;
     text-align: center;
+}
+
+h2 {
+    font-size: 25px;
 }
 
 .h1-div {
